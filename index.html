@@ -151,25 +151,27 @@
             flex-grow: 1;
         }
 
-        /* Action Button Inside Card */
+       /* Action Button Inside Card */
         .project-btn {
             display: inline-block;
-            background-color: var(--bg-color);
-            color: var(--accent-color);
+            background-color: #0066cc; /* A clean, professional blue */
+            color: #ffffff;            /* Pure white text so it is readable */
             text-align: center;
-            padding: 8px 16px;
+            padding: 10px 20px;        /* Slightly larger touch target */
             border-radius: 6px;
             text-decoration: none;
             font-weight: 600;
             font-size: 0.9rem;
-            border: 1px solid var(--border-color);
-            transition: all 0.2s;
+            border: 1px solid #0066cc; /* Matches the background color */
+            transition: all 0.2s ease; /* Makes the hover change smooth */
         }
 
+    /* Button Behavior on Hover */
         .project-btn:hover {
-            background-color: var(--accent-color);
-            color: #ffffff;
-            border-color: var(--accent-color);
+           background-color: #004499; /* A slightly darker blue when hovered */
+           border-color: #004499;     /* Matches the darker hover blue */
+           color: #ffffff;            /* Keeps the text pure white */
+           transform: translateY(-1px); /* Gives a tiny, modern "lift" effect */
         }
 
         /* Footer */
